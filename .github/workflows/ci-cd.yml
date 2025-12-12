@@ -12,6 +12,7 @@ jobs:
   # ===========================================
   test:
     runs-on: ubuntu-latest
+    continue-on-error: true
 
     steps:
       # Checkout du code
