@@ -76,5 +76,5 @@ jobs:
           #   ghcr.io/${{ github.repository }}:latest
           #   ghcr.io/${{ github.repository }}:v1.0.0-${{ github.run_number }}
           tags: |
-            ghcr.io/${{ toLower(github.repository_owner) }}/bug-tracker:latest
-            ghcr.io/${{ toLower(github.repository_owner) }}/bug-tracker:v1.0.0-${{ github.run_number }}
+            ghcr.io/jaegerba/bug-tracker:latest
+            ghcr.io/jaegerba/bug-tracker:v1.0.0-${{ github.run_number }}
